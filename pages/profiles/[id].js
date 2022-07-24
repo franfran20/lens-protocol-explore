@@ -11,7 +11,7 @@ import { useMoralis, useWeb3Contract } from "react-moralis";
 import { lensHubAbi } from "../../utils/abi";
 import { ConnectPage } from "../../components/ConnectPage";
 
-export default function handle() {
+export default function Handle() {
   const router = useRouter();
   const { id } = router.query;
   const { enableWeb3, isWeb3Enabled, account } = useMoralis();
