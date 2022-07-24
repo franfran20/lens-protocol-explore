@@ -1,0 +1,49 @@
+.recommendedContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 30px 10px;
+  margin: 10px 0px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.detailsContainer {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: row;
+}
+
+.profileDetails p {
+  padding: 0px 4px;
+  font-weight: 900;
+}
+
+.profileDetails span {
+  color: rgb(127, 168, 43);
+  font-size: 16px;
+  padding-left: 4px;
+}
+
+.profileImage img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profileStats {
+  display: flex;
+}
+
+.profileStats p {
+  padding: 3px 10px;
+}

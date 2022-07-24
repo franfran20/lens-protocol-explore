@@ -1,0 +1,5 @@
+export const networkMapping = {
+  80001: "0x60Ae865ee4C725cd04353b5AAb364553f56ceF82",
+};
+
+export const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";

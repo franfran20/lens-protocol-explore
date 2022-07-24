@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: monospace;
+  background-color: rgb(248, 250, 244);
 }
 
 a {
@@ -13,4 +13,100 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.individualProfileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto 0px auto;
+}
+
+.banner {
+  width: 100%;
+  height: 20%;
+}
+.pfp {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-left: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileInformation p,
+.followInformation p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.profileInformation span,
+.followInformation span {
+  color: yellowgreen;
+  font-weight: 900;
+}
+
+.publicationsID h3 {
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+
+.connectPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px;
+}
+
+.connectPage h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.connectPage button,
+.follow {
+  font-size: 22px;
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.connectPage button:hover,
+.follow:hover {
+  background-color: green;
+}
+
+.following {
+  color: rgb(51, 73, 7);
+  font-size: 20px;
+  font-weight: 900;
+  border: 1px solid rgb(51, 73, 7);
+}
+
+.smallScreen {
+  display: none;
+}
+
+@media only screen and (max-width: 860px) {
+  .smallScreen {
+    display: block;
+  }
+
+  .connectPage .bigScreen {
+    display: none;
+  }
 }

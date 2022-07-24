@@ -1,0 +1,73 @@
+.publicationContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-top: 1px solid rgba(148, 148, 148, 0.171);
+  border-bottom: 1px solid rgba(148, 148, 148, 0.171);
+}
+
+.profileDetails {
+  display: flex;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.profileDetails h3 {
+  font-weight: 200;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.profileDetails img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.postDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.postDetails p {
+  font-size: 20px;
+}
+
+.postDetails span {
+  color: rgb(147, 204, 32);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.postDetails a {
+  width: 100%;
+}
+
+.postDetails img,
+.postDetails video {
+  width: 100%;
+  height: 350px;
+}
+
+.postStats {
+  display: flex;
+}
+
+.para {
+  padding: 10px;
+}
+
+.postStats p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.postStats span {
+  font-size: 18px;
+  color: rgb(148, 209, 26);
+  font-weight: 800;
+}
